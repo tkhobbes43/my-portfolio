@@ -5,6 +5,7 @@
 }
 
 * {
+    box-sizing: border-box;
     background-color: var(--tertiary);
     font-family: 'Roboto', sans-serif;
     margin: 10;
@@ -19,15 +20,22 @@ header {
 
 }
 
-.parent {
-    display: flex;
-    height: 300px;
-    border-style: solid;
-    border-color: var(--dark);
+header nav ul {
+    list-style-type: none;
+    display: inline;
 }
 
-.child {
-    width: 100px;
-    height: 100px;
-    margin: auto;
+.steak {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+    border-style: solid;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Roboto', sans-serif;
+    background-color: var(--light);
+    color: var(--light)
+    
 }
