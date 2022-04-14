@@ -1,6 +1,13 @@
+:root {
+    --dark: black;
+    --light: white;
+    --tertiary: lightblue;
+}
 * {
-    background-color: lightblue;
+    background-color: var(--tertiary);
     font-family: 'Roboto', sans-serif;
+    margin: 10;
+    padding: 10;
 }
 
 header {
@@ -9,4 +16,17 @@ header {
     background-color: lightblue;
     font-size: 50px;
 
+}
+
+.parent {
+    display: flex;
+    height: 300px;
+    border-style: solid;
+    border-color: var(--dark)
+}
+
+.child {
+    width: 100px;
+    height:100px;
+    margin: auto;
 }
