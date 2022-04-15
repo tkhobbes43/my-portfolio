@@ -8,34 +8,32 @@
     box-sizing: border-box;
     background-color: var(--tertiary);
     font-family: 'Roboto', sans-serif;
-    margin: 10;
-    padding: 10;
 }
 
 header {
-    color: black;
-    font-family: 'Roboto', sans-serif;
-    background-color: lightblue;
-    font-size: 50px;
+    padding: 20px;
+    text-align: center;
+    display: inline-block;
+}
 
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-size: 20px;
 }
 
 header nav ul {
     list-style-type: none;
-    display: inline;
 }
 
-.steak {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 200px;
-    border-style: solid;
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Roboto', sans-serif;
-    background-color: var(--light);
-    color: var(--light)
-    
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+footer {
+    padding: 30px;
+    clear: both;
+    text-align: center;
 }
