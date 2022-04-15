@@ -1,13 +1,16 @@
 :root {
     --dark: black;
-    --light: white;
-    --tertiary: lightblue;
+    --main: #add8e6;
+    --second: #93e5e9;
+    --third: #87f1da;
 }
 
 * {
     box-sizing: border-box;
-    background-color: var(--tertiary);
-    font-family: 'Roboto', sans-serif;
+    background-color: var(--main);
+    font-family: 'Patua One', cursive;
+    padding: 10px;
+    margin: 10px;
 }
 
 header {
@@ -17,6 +20,8 @@ header {
 }
 
 header nav {
+    width: 100%;
+    background: var(--third);
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -36,4 +41,11 @@ footer {
     padding: 30px;
     clear: both;
     text-align: center;
+}
+
+.example-flex {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
 }
