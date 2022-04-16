@@ -6,7 +6,7 @@
 }
 
 * {
-    box-sizing: border-box;
+    border: content-box;
     font-family: 'Patua One', cursive;
 }
 
@@ -93,4 +93,18 @@ footer {
 }
 .contact {
     background-color: var(--main);
+}
+
+@media screen and (max-width: 992px) {
+    body {
+        width: 100%;
+        background-color: var(--main);
+    }
+}
+
+@media screen and (max-width: 535px) {
+    body {
+        width: 100%;
+        background-color: var(--third);
+    }
 }
