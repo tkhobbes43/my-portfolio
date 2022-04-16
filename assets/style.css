@@ -11,17 +11,25 @@
 }
 
 header {
-    padding: 20px;
+    padding: 0;
     text-align: center;
     display: inline-block;
     align-content: right;
+    margin: 0;
+}
+
+header img {
+    float: left;
+    height: 50px;
+    width: 50px;
 }
 
 header nav {
+    margin-right: 20px;
     width: 100%;
     background: var(--third);
     padding-top: 15px;
-    margin-right: 20px;
+    margin: 0;
     float: right;
     font-size: 20px;
 }
@@ -32,7 +40,7 @@ header nav ul {
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
+    margin: 25px;
 }
 
 footer {
@@ -41,16 +49,48 @@ footer {
     text-align: center;
 }
 
+.pizza {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    border: solid;
+    background-color: var(--third);
+    align-self: center; 
+}
+
+.pizza img {
+    max-width: 260px;
+    max-height: 260px;
+}
+
 .example-flex {
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
     border: solid;
-    background-color: var(--second);
+    background-color: var(--third);
+    align-self: center; 
+}
+
+.example-flex img {
+    max-width: 160px;
+    max-height: 160px;
 }
 
 .goals {
-    padding: 0;
-    margin: 0;
+    background-color: var(--second);
+}
+
+.biography {
+    background-color: var(--main);
+}
+
+.biography img {
+    max-width: 240px;
+    max-height: 240px;
+}
+.contact {
+    background-color: var(--main);
 }
