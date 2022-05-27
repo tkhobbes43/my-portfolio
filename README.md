@@ -21,6 +21,6 @@ WHEN I resize the page or view the site on various screens and devices
 THEN I am presented with a responsive layout that adapts to my viewport
 ```
 
-[Link to deployed application]()
+[Link to deployed application](https://tkhobbes43.github.io/my-portfolio/)
 
 ![screenshot of website](/assets/images/my-portfolio-screenshot.png)
