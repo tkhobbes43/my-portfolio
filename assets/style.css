@@ -70,6 +70,7 @@ footer {
     border: solid;
     background-color: var(--third);
     align-self: center; 
+    border-radius: 15px;
 }
 
 /* now the image is bigger than the other projects */
@@ -87,6 +88,7 @@ footer {
     border: solid;
     background-color: var(--third);
     align-self: center; 
+    border-radius: 15px;
 }
 
 .example-flex img {
