@@ -34,6 +34,8 @@ header nav {
     padding-top: 15px;
     margin: 0;
     font-size: 20px;
+    border: groove;
+    border-color: black;
 }
 
 header nav ul {
