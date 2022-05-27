@@ -17,6 +17,7 @@ header {
     display: inline-block;
     align-content: right;
     margin: 0;
+    float: right;
 }
 
 /* want image to be certain size because original size is too big */
@@ -32,7 +33,6 @@ header nav {
     background: var(--third);
     padding-top: 15px;
     margin: 0;
-    float: right;
     font-size: 20px;
 }
 
