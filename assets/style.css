@@ -51,6 +51,14 @@ footer {
     text-align: center;
 }
 
+.example-flex:hover {
+    background-color: azure;
+}
+
+.pizza:hover {
+    background-color: azure;
+}
+
 /* this is the class used to differentiate my first project from the rest */
 .pizza {
     display: flex;
