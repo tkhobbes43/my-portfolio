@@ -51,6 +51,26 @@ footer {
     padding: 30px;
     clear: both;
     text-align: center;
+    align-content: center;
+}
+
+footer nav {
+    width: 100%;
+    background: var(--main);
+    padding-top: 15px;
+    margin: 0;
+    font-size: 20px;
+    border: solid;
+    border-color: black;
+}
+
+footer nav ul {
+    list-style-type: none;
+}
+
+footer nav ul li {
+    display: inline-block;
+    margin: 25px;
 }
 
 .example-flex:hover {
@@ -109,9 +129,14 @@ footer {
     max-width: 240px;
     max-height: 240px;
 }
+
 .contact {
     background-color: var(--main);
     padding: 1em;
+}
+
+.list-style {
+    padding-top: 40px;
 }
 
 /* media query used to change colors depending on screen size and viewport */
