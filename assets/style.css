@@ -48,20 +48,16 @@ header nav ul li {
 }
 
 footer {
-    padding: 30px;
+    padding: 0;
     clear: both;
     text-align: center;
-    align-content: center;
 }
 
 footer nav {
-    width: 100%;
     background: var(--main);
     padding-top: 15px;
     margin: 0;
     font-size: 20px;
-    border: solid;
-    border-color: black;
 }
 
 footer nav ul {
@@ -70,7 +66,7 @@ footer nav ul {
 
 footer nav ul li {
     display: inline-block;
-    margin: 25px;
+    margin: 15px;
 }
 
 .example-flex:hover {
