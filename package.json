@@ -1,0 +1,22 @@
+{
+  "name": "my-portfolio",
+  "version": "1.0.0",
+  "description": "Creating this has many purposes, but one of them is to showcase my skills.\r This is also the perfect kind of practice, by applying what I learned to something that is useful.\r I hope to learn how to perfect the use of HTML and CSS to get my portfolio a good base so that potential employers have the perfect resource to see what I can do.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tkhobbes43/my-portfolio.git"
+  },
+  "author": "Tommy Lee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tkhobbes43/my-portfolio/issues"
+  },
+  "homepage": "https://github.com/tkhobbes43/my-portfolio#readme",
+  "dependencies": {
+    "bulma": "^0.9.4"
+  }
+}
