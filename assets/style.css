@@ -17,22 +17,6 @@
     display: block;
 }
 
-.pizza:hover {
-    background-color: azure;
-}
-
-/* this is the class used to differentiate my first project from the rest */
-.pizza {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-evenly;
-    border: solid;
-    background-color: var(--third);
-    align-self: center; 
-    border-radius: 15px;
-}
-
 /* now the image is bigger than the other projects */
 .pizza img {
     max-width: 260px;
