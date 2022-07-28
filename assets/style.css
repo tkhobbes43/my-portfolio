@@ -1,9 +1,3 @@
-:root {
-    --dark: black;
-    --main: #add8e6;
-    --second: #93e5e9;
-    --third: #87f1da;
-}
 
 /* want font of whole application to be the same */
 * {
@@ -11,66 +5,16 @@
     font-family: 'Patua One', cursive;
 }
 
-header {
-    padding: 0;
-    text-align: center;
-    display: inline-block;
-    align-content: right;
-    margin: 0;
-    float: right;
-}
-
-/* want image to be certain size because original size is too big */
-header img {
-    float: left;
-    height: 50px;
-    width: 50px;
-}
-
-header nav {
-    margin-right: 20px;
-    width: 100%;
-    background: var(--third);
-    padding-top: 15px;
-    margin: 0;
-    font-size: 20px;
-    border: groove;
-    border-color: black;
-}
-
-header nav ul {
-    list-style-type: none;
-}
-
-header nav ul li {
-    display: inline-block;
-    margin: 25px;
-}
-
-footer {
-    padding: 0;
-    clear: both;
-    text-align: center;
-}
-
-footer nav {
-    background: var(--main);
-    padding-top: 15px;
-    margin: 0;
-    font-size: 20px;
-}
-
-footer nav ul {
-    list-style-type: none;
-}
-
-footer nav ul li {
-    display: inline-block;
-    margin: 15px;
-}
-
 .example-flex:hover {
     background-color: azure;
+}
+
+.tabcontent {
+    display: none;
+}
+
+#goals {
+    display: block;
 }
 
 .pizza:hover {
@@ -112,31 +56,13 @@ footer nav ul li {
     max-height: 160px;
 }
 
-/* used css variables to color different portions of the application */
-.goals {
-    background-color: var(--second);
-}
-
-.biography {
-    background-color: var(--main);
-}
-
 .biography img {
     max-width: 240px;
     max-height: 240px;
 }
 
-.contact {
-    background-color: var(--main);
-    padding: 1em;
-}
-
-.list-style {
-    padding-top: 40px;
-}
-
 /* media query used to change colors depending on screen size and viewport */
-@media screen and (max-width: 992px) {
+/* @media screen and (max-width: 992px) {
     body {
         width: 100%;
         background-color: var(--main);
@@ -148,4 +74,4 @@ footer nav ul li {
         width: 100%;
         background-color: var(--third);
     }
-}
+} */
