@@ -11,6 +11,7 @@
    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
    <link href="https://fonts.googleapis.com/css2?family=Patua+One&display=swap" rel="stylesheet">
    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+   <script src="https://kit.fontawesome.com/212accd078.js" crossorigin="anonymous"></script>
    <link rel="stylesheet" href="assets/style.css">
 </head>
 
@@ -20,7 +21,7 @@
          <nav class="navbar">
             <div class="container">
                <div id="navbarMenuHeroB" class="navbar-menu">
-                  <div class="navbar-end">
+                  <div class="navbar-end is-size-4">
                      <a class="navbar-item" href="mailto: t.k.hobbes43@gmail.com">Email Me</a>
                      <a class="navbar-item" href="https://github.com/tkhobbes43" target="_blank" rel="noreferrer noopener">My GitHub</a>
                      <a class="navbar-item" href="https://www.linkedin.com/in/thomas-lee-29a033b2/" target="_blank" rel="noreferrer noopener">My LinkedIn</a>
@@ -32,7 +33,7 @@
       </div>
 
       <div class="hero-body">
-         <div class="container has-text-centered">
+         <div class="container has-text-centered is-sized-3">
             <p class="title">
                Tommy Lee
             </p>
@@ -46,16 +47,30 @@
          <nav class="tabs is-boxed is-fullwidth">
             <div class="container">
                <ul>
-                  <li class="is-active"><a>About Me</a></li>
-                  <li><a>Goals</a></li>
-                  <li><a>Projects</a></li>
+                  <li class="is-active tablinks">
+                     <a>
+                        <span class = "icon is medium"><i class="fa-solid fa-hand-wave" aria-hidden="true"></i></span>
+                        <span>About Me</span>
+                     </a>
+                  </li>
+                  <li class="tablinks">
+                     <a>
+                        <span class = "icon is medium"><i class="fa-solid fa-bullseye" aria-hidden="true"></i></span>
+                        <span>Goals</span>
+                     </a>
+                  </li>
+                  <li class="tablinks">
+                     <a>
+                        <span class = "icon is medium"><i class="fa-solid fa-diagram-project" aria-hidden="true"></i></span>
+                        <span>Projects</span>
+                     </a>
+                  </li>
                </ul>
             </div>
          </nav>
       </div>
-   </section>
-   <main>
-      <div class="biography">
+
+      <div class="biography tabcontent">
          <img src="assets/images/studying.png" alt="avatar of me studying image"/>
          <section id="about-me">
          <h1>Who is this guy?</h1>
@@ -64,7 +79,7 @@
          </section>
       </div>
 
-      <div class="goals">
+      <div class="goals tabcontent">
          <section id="goals">
          <h1>What I want to Master</h1>
          <p>Below are some of the programming languages I want to master.</p>
@@ -77,59 +92,57 @@
          </section>
       </div>
 
-      <section id="my-work">   
-      <h1> My Work</h1>
+      <section id="my-work tabcontent">   
+         <h1> My Work</h1>
+         </section>
+         <!-- this project needs to be bigger than the others -->
+         <div class="pizza">
+            <a href="https://github.com/tinyTriumphs/tinyTriumphs">
+            <h1>Tiny Triumphs</h1>
+            </a>
+            <a href="https://tinytriumphs.herokuapp.com/">
+            <img src="assets/images/180118684-9770b5de-3fc2-4488-b737-a94a2ea47dd3.png" alt="Tiny Trimumphs website screenshot"/>
+            </a>
+         </div>
+         <!-- the rest are to be uniform -->
+         <div class="example-flex">
+            <a href="https://github.com/anacecyflores1/ProductivityTiles">
+            <h1>ProductivityTiles</h1>
+            </a>
+            <a href="https://anacecyflores1.github.io/ProductivityTiles/">
+            <img src="assets/images/ProductivityTiles.jpg" alt="project 1 image", width: 50%; height: 50%;/>
+            </a>
+         </div>
+   
+         <div class="example-flex">
+            <a href="https://github.com/tkhobbes43/weather-dashboard">
+            <h1>Weather Dashboard</h1>
+            </a>
+            <a href="https://https://tkhobbes43.github.io/weather-dashboard/">
+            <img src="assets/images/weather-dashboard.PNG" alt="weather dashboard image"/>
+            </a>
+         </div>
+   
+         <div class="example-flex">
+            <a href="https://github.com/tkhobbes43/my-work-day-scheduler">
+            <h1>My Work Day Scheduler</h1>
+            </a>
+            <a href="https://https://tkhobbes43.github.io/my-work-day-scheduler/">
+            <img src="assets/images/my-work-day-scheduler.PNG" alt="my work day scheduler imagechess image from freepnglogos.com"/>
+            </a>
+         </div>
+   
+         <div class="example-flex">
+            <a href="https://www.fillmurray.com/200/300">
+            <h1>My Own Chess Game</h1>
+            </a>
+            <a href="https://www.fillmurray.com/200/300">
+            <img src="assets/images/chess-transparent-images-7.png" alt="chess image from freepnglogos.com"/>
+            </a>
+         </div>
       </section>
-      <!-- this project needs to be bigger than the others -->
-      <div class="pizza">
-         <a href="https://github.com/tinyTriumphs/tinyTriumphs">
-         <h1>Tiny Triumphs</h1>
-         </a>
-         <a href="https://tinytriumphs.herokuapp.com/">
-         <img src="assets/images/180118684-9770b5de-3fc2-4488-b737-a94a2ea47dd3.png" alt="Tiny Trimumphs website screenshot"/>
-         </a>
-      </div>
-      <!-- the rest are to be uniform -->
-      <div class="example-flex">
-         <a href="https://github.com/anacecyflores1/ProductivityTiles">
-         <h1>ProductivityTiles</h1>
-         </a>
-         <a href="https://anacecyflores1.github.io/ProductivityTiles/">
-         <img src="assets/images/ProductivityTiles.jpg" alt="project 1 image", width: 50%; height: 50%;/>
-         </a>
-      </div>
-
-      <div class="example-flex">
-         <a href="https://github.com/tkhobbes43/weather-dashboard">
-         <h1>Weather Dashboard</h1>
-         </a>
-         <a href="https://https://tkhobbes43.github.io/weather-dashboard/">
-         <img src="assets/images/weather-dashboard.PNG" alt="weather dashboard image"/>
-         </a>
-      </div>
-
-      <div class="example-flex">
-         <a href="https://github.com/tkhobbes43/my-work-day-scheduler">
-         <h1>My Work Day Scheduler</h1>
-         </a>
-         <a href="https://https://tkhobbes43.github.io/my-work-day-scheduler/">
-         <img src="assets/images/my-work-day-scheduler.PNG" alt="my work day scheduler imagechess image from freepnglogos.com"/>
-         </a>
-      </div>
-
-      <div class="example-flex">
-         <a href="https://www.fillmurray.com/200/300">
-         <h1>My Own Chess Game</h1>
-         </a>
-         <a href="https://www.fillmurray.com/200/300">
-         <img src="assets/images/chess-transparent-images-7.png" alt="chess image from freepnglogos.com"/>
-         </a>
-      </div>
-
-      
-<!-- contact info section taking me to external sites and open email  -->
-   </main>
-
+   </section>
+   
    <footer class = "footer">
       <div class = "content has-text-centered">
          <p>
