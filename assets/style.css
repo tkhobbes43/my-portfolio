@@ -10,12 +10,9 @@ p {
     word-wrap: break-word
 }
 
-img {
-
-}
-
 footer {
-    height: 75px;
+    padding: 1rem;
+    height: 10px;
 }
 
 .example-flex:hover {
@@ -23,12 +20,22 @@ footer {
     color: white;
 }
 
+.bio-image {
+    float: left;
+    height: 150px;
+    width: 150px;
+}
+
 .tabcontent {
     display: none;
 }
 
+.hero-body {
+    padding: 6rem 6rem;
+}
+
 .hero-foot {
-    margin: 20px;
+    margin: 5px;
 }
 
 #goals {
