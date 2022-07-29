@@ -10,6 +10,14 @@ p {
     word-wrap: break-word
 }
 
+img {
+
+}
+
+footer {
+    height: 75px;
+}
+
 .example-flex:hover {
     background-color: black;
     color: white;
@@ -19,13 +27,16 @@ p {
     display: none;
 }
 
+.hero-foot {
+    margin: 20px;
+}
+
 #goals {
     display: block;
 }
 
 #bio-width {
     width: 100px;
-
 }
 
 /* now the image is bigger than the other projects */
