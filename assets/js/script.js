@@ -11,5 +11,5 @@ function openTab (event, tabId) {
     }
  // Show current tab and add is-active to that tab
     document.getElementById(tabId).style.display = 'block';
-    event.currentTarget.className += " is-active";
+    event.currentTarget.className += "is-active";
 }
