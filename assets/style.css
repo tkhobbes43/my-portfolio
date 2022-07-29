@@ -5,6 +5,11 @@
     font-family: 'Patua One', cursive;
 }
 
+p {
+    word-break: normal;
+    word-wrap: break-word
+}
+
 .example-flex:hover {
     background-color: azure;
 }
@@ -15,6 +20,11 @@
 
 #goals {
     display: block;
+}
+
+#bio-width {
+    width: 100px;
+
 }
 
 /* now the image is bigger than the other projects */
