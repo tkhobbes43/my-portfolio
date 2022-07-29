@@ -42,16 +42,6 @@ footer {
     display: block;
 }
 
-#bio-width {
-    width: 100px;
-}
-
-/* now the image is bigger than the other projects */
-.pizza img {
-    max-width: 260px;
-    max-height: 260px;
-}
-
 /* uniformity across rest of the projects with this selector */
 .example-flex {
     display: flex;
