@@ -5,11 +5,6 @@
     font-family: 'Patua One', cursive;
 }
 
-p {
-    word-break: normal;
-    word-wrap: break-word
-}
-
 footer {
     padding: 1rem;
     height: 10px;
@@ -38,12 +33,14 @@ footer {
     padding: 6rem 6rem;
 }
 
-.hero-foot {
-    margin: 5px;
+.test {
+    width: 60vw;
+    flex-wrap: wrap;
+    text-align: justify;
 }
 
-.goal-list {
-    list-style-type: circle;
+.hero-foot {
+    margin: 5px;
 }
 
 /* uniformity across rest of the projects with this selector */
